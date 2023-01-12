@@ -11,7 +11,7 @@
     --text-dark: #12202f;
     --text-white: #ffffff;
     --btn-orange: #df581e;
-    --btn-info: #6bb99c;
+    --btn-info: #33c38e;
 
     --bg-yellow: #fa9d30;
     --bg-gray: #ebe3cd;
@@ -39,27 +39,33 @@ li{
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
+h3{
+    text-align: center;
+    color: var(--bg-dark);
+}
 h2{
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--text-dark);
+    text-align: center;
+    position: relative;
 }
 .container{
     max-width: 1195px;
     margin: 0 auto;
+    padding: 4rem 3rem ;
 }
 
 /* ====header-section==== */
 header{
     background-color: var(--bg-gray);
-    padding-top: 4rem;
 }
 .header-section{
     background-color: var(--bg-gray);
     background-image: url("../images/header-img.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: right bottom;
 }
 .navbar{
     display: flex;
@@ -122,7 +128,7 @@ header{
     font-weight: 500;
     margin-bottom: 2rem;
 }
-.hero-text .btn-primary:hover{
+.btn-primary:hover{
     background-color: var(--text-white);
     color: var(--btn-orange);
     border: 1px solid var(--btn-orange);
@@ -153,6 +159,7 @@ header{
     background-color: var(--text-white);
     border-radius: 1.5rem;
     padding: 2rem 0;
+    box-shadow: var(--shadow);
 }
 .book-group .time-line{
     display: flex;
@@ -182,5 +189,69 @@ header{
     font-size: 1.2rem;
     border-radius: 1rem;
     margin-top: 2.5rem;
+    cursor: pointer;    
+}
+
+/* ====food-categories==== */
+.food-categories .top-title{
+    color: var(--btn-orange);
+}
+.food-categories .main-title::before{
+    content: "";
+    width: 10%;
+    height: .2rem;
+    background-color: var(--bg-yellow);
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.categories-group{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+.categories-group .categories-item{
+    padding: 3rem 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--text-white);
+    box-shadow: var(--shadow);
     cursor: pointer;
+}
+.categories-item .item-img img{
+    width: 50%;
+}
+.categories-item .categories-text{
+    margin: 1rem 0;
+}
+.categories-item .categories-text .categories-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.categories-item .categories-text .categories-title{
+    color: var(--bg-dark);
+}
+
+/* ====care-section==== */
+.care-section{
+    height: 100vh;
+    text-align: center;
+    background: url("../images/care-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.care-section .top-title{
+    color: var(--btn-info);
+}
+.care-section .btn-primary{
+    background-color: var(--btn-info);
+    margin-top: 1rem;
+}
+.care-section .btn-primary:hover{
+    background-color: transparent;
+    color: var(--btn-info);
+    border: 1px solid var(--btn-info);
 }
