@@ -374,7 +374,6 @@ header{
     background-color: var(--text-white);
     border-radius: 1rem;
     box-shadow: var(--shadow);
-    width: ;
 }
 .review .review-img img{
     width: 8rem;
