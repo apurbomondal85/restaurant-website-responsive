@@ -75,6 +75,7 @@ header{
     background: var(--text-dark);
     border-radius: 2rem;
     padding: .5rem 3rem;
+    box-shadow: var(--shadow);
 }
 .navbar .logo{
     width: 3rem;
@@ -156,10 +157,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 2rem;
     background-color: var(--text-white);
     border-radius: 1.5rem;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
     box-shadow: var(--shadow);
 }
 .book-group .time-line{
@@ -492,7 +493,7 @@ footer{
 }
 .sign-up .icons{
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     align-items: center;
     font-size: 1rem;
 }

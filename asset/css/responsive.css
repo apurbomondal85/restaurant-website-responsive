@@ -1,0 +1,169 @@
+
+@media (max-width: 1195px) {
+    .book-group{
+        gap: 1rem;
+        padding: 2rem;
+    }
+    .book-group .time-line{
+        gap: 1rem;
+    }
+    .time-line p{
+        font-size: 1rem;
+    }
+    .book-group .time-line input{
+        padding: .7rem 2rem;
+    }
+    .book-group .cheek{
+        padding: .7rem 1rem;
+        font-weight: 500;
+        font-size: 1rem;  
+    }
+    .sign-up input{
+        padding: .7rem 1rem;
+        font-size: .8rem;
+    }
+    .sign-up .btn-primary{
+        padding: .7rem 1rem;
+        font-size: .8rem;
+    }
+}
+@media (max-width: 992px) {
+    h3{
+        font-size: .8rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .container{
+        padding: 4rem 1rem ;
+    }
+    .btn{
+        padding: .5rem .8rem;
+        font-size: .8rem;
+    }
+    header{
+        min-height: 85vh;
+    }
+    .navbar .nav-menu{
+        gap: 1rem;
+    }
+    .navbar .nav-menu li a{
+        font-size: 1rem;
+    }
+    .navbar .sign{
+        font-size: 1rem;
+    }
+    .hero-text .hero-title{
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+    .hero-text .hero-sub{
+        font-size: 1.1rem;
+    }
+    .hero-text .hero-det{
+        font-size: .9rem;
+    }
+    .hero-text .btn-secondary{
+        margin-left: 1rem;
+    }
+    /* --table-- */
+    .book-table .book-title{
+        font-size: 1rem;
+    }
+    .book-group{
+        padding: 1rem;
+    }
+    .time-line p{
+        font-size: .8rem;
+    }
+    .book-group .time-line input{
+        padding: .5rem 1rem;
+        font-size: .8rem;
+    }
+    .book-group .cheek{
+        padding: .5rem 1rem;
+        margin-top: 2rem;
+        font-size: .8rem;  
+    }
+    /* care */
+    .care-section{
+        height: 55vh;
+    }
+    /* categories */
+    .categories-group{
+        gap: 2rem;
+    }
+    .categories-group .categories-item{
+        padding: 2rem 1rem;
+    }
+    .categories-item .categories-text{
+        margin: .5rem 0;
+    }
+    .categories-item .categories-text .categories-title{
+        font-size: 1.5rem;
+    }
+    /* --story-- */
+    .story-section{
+        gap: 0;
+    }
+    .story-details{
+        font-size: .8rem;
+    }
+    .story-text .btn-primary{
+        margin-top: 1rem;
+    }
+    /* --ingredients-- */
+    .ingredient-section{
+        gap: 0;
+    }
+    .ingredient-text{
+        padding: 0;
+    }
+    .ingredient-title{
+        text-align: left;
+        line-height: 1.2;
+    }
+    .ingredient-details{
+        font-size: .8rem;
+    }
+    .ingredient-text .btn-primary{
+        margin-top: 1rem;
+    }
+    /* chef */
+    .chef-details{
+        font-size: .8rem;
+    }
+    .chef-text .btn-primary{
+        margin-top: 1rem;
+    }
+    /* review  */
+    .review {
+        display: block;
+    }
+    .review .review-img img {
+        width: 6rem;
+    }
+    /* footer  */
+    .footer-title{
+        font-size: 1.5rem;
+    }
+    .footer-group ul li{
+        padding-top: .5rem;
+    }
+    .sign-up{
+        align-items: center;
+        text-align: right;
+        gap: 1rem;
+    }
+    .sign-up input{
+        padding: .5rem .7rem;
+        font-size: .8rem;
+    }
+    .sign-up .btn-primary{
+        padding: .5rem .7rem;
+    }
+    .sign-up .icons{
+        gap: 1rem;
+        font-size: .8rem;
+    }
+}
