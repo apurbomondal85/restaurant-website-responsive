@@ -329,6 +329,7 @@ header{
     box-shadow: var(--shadow);
     padding: 3rem;
     border-radius: 2rem;
+    background-color: var(--text-white);
 }
 .chef-text,.chef-img{
     flex: 1;
@@ -350,4 +351,57 @@ header{
 }
 .chef-img img{
     width: 100%;
+}
+
+/* ====review-section==== */
+.customers-section .top-title{
+    color: var(--btn-orange);
+}
+.customer-review{
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.review{
+    width: calc(48% - 3rem/3);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: var(--text-white);
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    width: ;
+}
+.review .review-img img{
+    width: 8rem;
+}
+.review .review-text .review-person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-person .review-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.review-person .review-date{
+    font-size: .7rem;
+    color: #a37b35;
+}
+.review-text .review-comment{
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+.review .review-stars .filed{
+    color: var(--bg-yellow);
+    font-size: 1rem;
+}
+.review .review-stars .emty{
+    color: var(--bg-gray);
+    font-size: 1rem;
 }
