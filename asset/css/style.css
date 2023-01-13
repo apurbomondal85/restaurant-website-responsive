@@ -404,3 +404,104 @@ header{
     color: var(--bg-gray);
     font-size: 1rem;
 }
+
+/* ====contact-section==== */
+.contact-section{
+    background: url("../images/contact-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.contact-section .top-title{
+    color: var(--btn-orange);
+}
+.contact-section .newsletter{
+    width: 50%;
+    margin: 3rem auto;
+}
+.newsletter form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.newsletter input,textarea{
+    outline: none;
+    border: 1px solid var(--text-white);
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #9b9b9b;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+}
+.newsletter input::placeholder, textarea::placeholder{
+    color: var(--text-white);
+}
+.newsletter textarea{
+    resize: none;
+    height: 10rem;
+}
+
+/* ====footer-section==== */
+footer{
+    background-color: var(--bg-yellow);
+    padding: 4rem 0;
+}
+.footer-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about,.we-do,.sign-up{
+    flex: 1;
+}
+.footer-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-white);
+}
+.footer-group ul li{
+    padding-top: 1rem;
+}
+.footer-group ul li a{
+    color: var(--text-dark);
+    font-weight: 500;
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    gap: 3rem;
+}
+.sign-up input{
+    outline: none;
+    border: 1px solid var(--text-dark);
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #12202f;
+    border-radius: 1rem 0 0 1rem;
+    margin-right: -.3rem;
+    box-shadow: var(--shadow);
+}
+.sign-up .btn-primary{
+    padding: 1rem;
+    border-radius: 0 1rem 1rem 0;
+}
+.sign-up .icons{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    font-size: 1rem;
+}
+.sign-up .icons i{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--bg-gray);
+}
