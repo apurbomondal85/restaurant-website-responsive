@@ -190,6 +190,7 @@ header{
     color: var(--bg-dark);
     background-color: var(--bg-gray);
     border-radius: 1rem;
+    text-transform: lowercase;
 }
 .book-group .cheek{
     outline: none;
