@@ -167,3 +167,201 @@
         font-size: .8rem;
     }
 }
+@media (max-width: 768px) {
+    .sign-up input{
+        padding: .4rem .6rem;
+        font-size: .7rem;
+    }
+    .sign-up .btn-primary{
+        padding: .4rem .6rem;
+        font-size: .7rem;
+    }
+}
+@media (max-width: 570px) {
+    h2{
+        font-size: 1.5rem;
+    }
+    .btn{
+        padding: .4rem .6rem;
+        font-size: .6rem;
+    }
+    .container{
+        padding: 0;
+    }
+    .navbar{
+        width: 100%;
+        border-radius: 0;
+        padding: .5rem 1rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .toggle-bar{
+        display: block;
+    }
+    .navbar-menu{
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        left: -100%;
+        top: 0%;
+        background: var(--bg-yellow);
+        z-index: 11;
+        transition: all .4s ease-in-out;
+    }
+    .show{
+        left: 0%;
+    }
+    .nav-menu{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .navbar .nav-menu li a{
+        font-size: 1.4rem;
+    }
+    .sign{
+        display: none;
+    }
+    .hero-section{
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-text{
+        width: 100%;
+        align-items: center;
+    }
+    .hero-text .hero-det{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .book-table .book-title{
+        margin-bottom: .5rem;
+    }
+    .book-group{
+        display: block;
+        text-align: center;
+    }
+    .book-group .time-line{
+        gap: .2rem;
+    }
+    .book-group .time-line input{
+        padding: .4rem .6rem;
+        font-size: .7rem;
+    }
+    .book-group .cheek{
+        padding: .4rem .6rem;
+        font-size: .7rem;
+        margin-top: 0.8rem;
+    }
+    .categories-group{
+        display: grid;
+        grid-template-columns: repeat(1, 90%);
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 3rem;
+    }
+    .story-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .story-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .story-details{
+        text-align: center;
+    }
+    .ingredients-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ingredient-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ingredient-details{
+        text-align: center;
+    }
+    .chef-section{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
+
+    }
+    .chef-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .chef-details{
+        width: 100%;
+        text-align: center;
+    }
+    .customers-section{
+        margin-top: 2rem;
+    }
+    .customer-review{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 2rem;
+    }
+    .review{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 0;
+    }
+    .review .review-img img{
+        width: 9rem;
+    }
+    .review-text .review-comment{
+        font-size: .7rem;
+    }
+    .review .review-stars .filed, .review-stars .emty{
+        font-size: .7rem;
+    }
+    .contact-section{
+        margin: 2rem;
+    }
+    .contact-section .newsletter{
+        width: 100%;
+    }
+    .newsletter input,textarea{
+        font-size: .8rem;
+        padding: .7rem 1rem;
+    }
+    .footer-group{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .about,.we-do,.sign-up{
+        width: 40%;
+        padding-left: 1rem;
+    }
+    .sign-up{
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+}

@@ -18,13 +18,16 @@
             <div class="header-section">
                 <nav class="navbar">
                     <div class="logo"><img src="asset/images/logo.png" alt="logo"></div>
-                    <ul class="nav-menu">
-                        <li><a href="#home">home</a></li>
-                        <li><a href="#menu">menu</a></li>
-                        <li><a href="#about">about us</a></li>
-                        <li><a href="#contact">contact</a></li>
-                    </ul>
+                    <div class="navbar-menu">
+                        <ul class="nav-menu">
+                            <li><a href="#home">home</a></li>
+                            <li><a href="#menu">menu</a></li>
+                            <li><a href="#about">about us</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                    </div>
                     <div><a href="#" class="sign">sign up</a></div>
+                    <span class="toggle-bar"><i class="fa-solid fa-bars"></i></span>
                 </nav>
                 <!-- ----hero-section---- -->
                 <div class="hero-section">
@@ -295,6 +298,19 @@
         </div>
     </footer>
 
+
+    <script>
+        let toggleBar = document.querySelector(".toggle-bar");
+        let toggle = document.querySelector(".navbar-menu");
+        let navMenu = document.querySelector(".nav-menu");
+
+        toggleBar.addEventListener("click", ()=>{
+            toggle.classList.toggle("show");
+        })
+        navMenu.addEventListener("click", ()=>{
+            toggle.classList.remove("show");
+        })
+    </script>
     
 </body>
 </html>

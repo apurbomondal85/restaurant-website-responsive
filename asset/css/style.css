@@ -60,6 +60,7 @@ h2{
 header{
     background-color: var(--bg-gray);
     min-height: 100vh;
+    position: relative;
 }
 .header-section{
     background-color: var(--bg-gray);
@@ -82,6 +83,15 @@ header{
 }
 .navbar .logo img{
     width: 100%;
+}
+.toggle-bar{
+    font-size: 1.5rem;
+    display: none;
+    z-index: 11;
+    cursor: pointer;
+}
+.toggle-bar i{
+    color: var(--text-white)
 }
 .navbar .nav-menu{
     display: flex;
